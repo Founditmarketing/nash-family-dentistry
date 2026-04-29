@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Source+Sans+3:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+
+  --color-primary: #111111;
+  --color-accent: #FF6900;
+  --color-charcoal: #1E1E1E;
+  --color-warm-gray: #F5F5F5;
+
+  /* Nash Family Dentistry — Vicksburg */
+  --color-vicksburg: #FF6900;
+
+  /* Mint Dental Pearl — Pearl, MS */
+  --color-pearl: #4B8741;
+  --color-pearl-dark: #116031;
+}
+
+:root {
+  --color-primary: #111111;
+  --color-accent: #FF6900;
+  --color-charcoal: #1E1E1E;
+  --color-warm-gray: #F5F5F5;
+  --color-vicksburg: #FF6900;
+  --color-pearl: #4B8741;
+  --color-pearl-dark: #116031;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 { @apply font-display; }
+  body { background-color: #ffffff; color: #111111; }
+}
+
+/* Vicksburg / Nash accent */
+.text-vicksburg   { color: #FF6900; }
+.bg-vicksburg     { background-color: #FF6900; }
+.border-vicksburg { border-color: #FF6900; }
+.btn-vicksburg {
+  background-color: #FF6900; color: #fff; font-weight: 700;
+  border-radius: 4px; transition: background-color 0.2s; display: inline-block;
+}
+.btn-vicksburg:hover { background-color: #e05d00; }
+
+/* Mint Dental Pearl accent */
+.text-pearl   { color: #4B8741; }
+.bg-pearl     { background-color: #4B8741; }
+.border-pearl { border-color: #4B8741; }
+.btn-pearl {
+  background-color: #4B8741; color: #fff; font-weight: 700;
+  padding: 0.75rem 2rem; border-radius: 4px; transition: background-color 0.2s; display: inline-block;
+}
+.btn-pearl:hover { background-color: #3a6d32; }
+
+.markdown-body { color: #1E1E1E; line-height: 1.7; }
