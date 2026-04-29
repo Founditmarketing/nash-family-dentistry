@@ -21,7 +21,7 @@ const Testimonials = () => {
     <div id="testimonials-page">
       <div className="bg-primary text-white py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 italic">Patient Testimonials</h1>
+          <h1 className="text-4xl md:text-5xl font-black mb-4">Patient Testimonials</h1>
           <p className="text-xl opacity-80 max-w-2xl mx-auto">Real stories from our valued patients in Vicksburg, MS.</p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Testimonials = () => {
             <Star className="h-5 w-5 text-accent fill-accent" />
             <span className="font-bold text-primary">Highly Rated on Google</span>
           </div>
-          <h2 className="text-3xl font-bold text-primary italic">What Our Patients Are Saying</h2>
+          <h2 className="text-3xl font-black text-black">What Our Patients Are Saying</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-10">
           {testimonials.map((t, i) => (
@@ -47,7 +47,7 @@ const Testimonials = () => {
           ))}
         </div>
         <div className="mt-20 bg-charcoal text-white p-12 rounded-3xl text-center shadow-2xl">
-          <h3 className="text-2xl font-bold mb-6 italic">Share Your Experience</h3>
+          <h3 className="text-2xl font-black mb-6">Share Your Experience</h3>
           <p className="opacity-70 mb-10 max-w-xl mx-auto">Your feedback helps us continue providing the best care possible. If you've enjoyed your visit, we'd love to hear from you on Google.</p>
           <a href={GOOGLE_REVIEW_URL} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-accent text-charcoal font-bold px-10 py-5 text-xl rounded-md hover:bg-accent/90 transition-all active:scale-95 shadow-lg">
@@ -59,7 +59,7 @@ const Testimonials = () => {
       <Section bg="gray">
         <div className="max-w-4xl mx-auto space-y-10">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-primary italic mb-4">Watch Patient Testimonials</h2>
+            <h2 className="text-3xl font-black text-black mb-4">Watch Patient Testimonials</h2>
             <p className="text-charcoal/60 max-w-2xl mx-auto">Hear directly from our patients about their experiences — from Lumineers® to Laser Dentistry.</p>
           </div>
           <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">

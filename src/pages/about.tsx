@@ -18,7 +18,7 @@ const About = () => {
       {/* Header */}
       <div className="bg-primary text-white py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 italic">Two Generations. One Mission.</h1>
+          <h1 className="text-4xl md:text-5xl font-black mb-4">Two Generations. One Mission.</h1>
           <p className="text-xl md:text-2xl text-accent font-semibold uppercase tracking-widest leading-relaxed">Changing Lives One Smile At A Time</p>
         </div>
       </div>
@@ -158,7 +158,7 @@ const About = () => {
       {/* Core Values */}
       <Section id="values" bg="charcoal">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 italic">Our Core Values</h2>
+          <h2 className="text-3xl md:text-4xl font-black mb-4">Our Core Values</h2>
           <p className="text-accent uppercase tracking-widest font-semibold text-sm">What Drives Every Appointment</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -181,7 +181,7 @@ const About = () => {
       {/* Technology & Office */}
       <Section id="office-tour">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary italic">Comfort Meets Technology</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-black">Comfort Meets Technology</h2>
             <p className="mt-4 text-charcoal/70 max-w-2xl mx-auto">Explore our modern Vicksburg office, equipped with the latest diagnostic and treatment tools for your comfort and safety.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -194,7 +194,7 @@ const About = () => {
 
       {/* CTA */}
       <div className="bg-primary py-16 text-center">
-         <h2 className="text-3xl font-bold text-white mb-8 italic">Experience the Nash Family Difference</h2>
+         <h2 className="text-3xl font-black text-white mb-8">Experience the Nash Family Difference</h2>
          <Button to="/contact" variant="gold" className="px-10 py-5 text-xl">Schedule Your Visit</Button>
       </div>
     </div>

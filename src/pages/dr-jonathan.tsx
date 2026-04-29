@@ -106,7 +106,7 @@ const DrJonathan = () => {
       <Section bg="gray" id="jon-specializations">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-primary italic mb-4">Areas of Focus</h2>
+            <h2 className="text-3xl font-black text-black mb-4">Areas of Focus</h2>
             <p className="text-charcoal/60 max-w-2xl mx-auto">Dr. Jonathan's training and passion converge on making dentistry more accessible, comfortable, and effective for every patient.</p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -123,7 +123,7 @@ const DrJonathan = () => {
       <Section bg="charcoal" id="jon-cta">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <Award className="h-12 w-12 text-accent mx-auto" />
-          <h2 className="text-3xl font-bold italic">Pamela C. &amp; Frank S. Royal, Sr., M.D. Scholarship Recipient</h2>
+          <h2 className="text-3xl font-black">Pamela C. &amp; Frank S. Royal, Sr., M.D. Scholarship Recipient</h2>
           <p className="text-gray-400 leading-relaxed">Dr. Jonathan's academic excellence was recognized with one of Meharry Medical College's most prestigious scholarships — a testament to his dedication to dentistry and service.</p>
           <Button to="/contact" variant="gold" className="px-10 py-5 text-xl">Book with Dr. Jonathan</Button>
         </div>

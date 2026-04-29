@@ -6,7 +6,7 @@ const PatientCenter = () => {
     <div id="patient-center-page">
       <div className="bg-primary text-white py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 italic">Patient Center</h1>
+          <h1 className="text-4xl md:text-5xl font-black mb-4">Patient Center</h1>
           <p className="text-xl opacity-80 max-w-2xl mx-auto italic font-medium">Resources and information for our new and existing patients.</p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const PatientCenter = () => {
                <div className="p-3 bg-primary/10 rounded-lg">
                   <ShieldCheck className="h-8 w-8 text-primary" />
                </div>
-               <h2 className="text-3xl font-bold text-primary italic">Insurance Information</h2>
+               <h2 className="text-3xl font-black text-black">Insurance Information</h2>
             </div>
             <p className="text-lg text-charcoal/80 leading-relaxed">
               We accept most major dental insurance carriers and are happy to process most dental claims in-office for your convenience. Our goal is to help you maximize your benefits while receiving the care you need.
@@ -36,7 +36,7 @@ const PatientCenter = () => {
                <div className="p-3 bg-accent/10 rounded-lg">
                   <CreditCard className="h-8 w-8 text-accent" />
                </div>
-               <h2 className="text-3xl font-bold text-primary italic">Flexible Financing</h2>
+               <h2 className="text-3xl font-black text-black">Flexible Financing</h2>
             </div>
             <p className="text-lg text-charcoal/80 leading-relaxed">
               We believe that cost should never be a barrier to achieving your best smile. Nash Family Dentistry offers a variety of flexible financing options to ensure you can receive treatment on a budget that works for you.
@@ -54,7 +54,7 @@ const PatientCenter = () => {
              <div className="space-y-8">
                  <div className="flex items-center space-x-4">
                     <ClipboardCheck className="h-8 w-8 text-primary" />
-                    <h2 className="text-3xl font-bold text-primary italic">New Patient Paperwork</h2>
+                    <h2 className="text-3xl font-black text-black">New Patient Paperwork</h2>
                  </div>
                  <p className="text-lg text-charcoal/80 leading-relaxed">
                     Welcome to the family! To make your first visit as smooth as possible, we invite you to complete your new patient paperwork online via our secure portal. This saves you time in the waiting room and allows us to focus entirely on you during your appointment.
@@ -89,7 +89,7 @@ const PatientCenter = () => {
       {/* FAQ Teaser */}
       <Section>
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-primary italic">Common Patient Questions</h2>
+            <h2 className="text-3xl font-black text-black">Common Patient Questions</h2>
           </div>
           <div className="max-w-3xl mx-auto space-y-6">
              {[

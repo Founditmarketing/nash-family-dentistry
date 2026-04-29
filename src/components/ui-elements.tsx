@@ -18,10 +18,10 @@ export const Button = ({
   const baseStyles = "inline-flex items-center justify-center px-6 py-3 rounded-md font-semibold transition-all duration-300 active:scale-95 shadow-sm";
   
   const variants = {
-    primary: "bg-primary text-white hover:bg-primary/90",
-    gold: "bg-accent text-charcoal hover:bg-accent/90",
+    primary: "bg-black text-white hover:bg-gray-800",
+    gold: "bg-accent text-white hover:bg-accent/90",
     secondary: "bg-charcoal text-white hover:bg-charcoal/90",
-    outline: "border-2 border-primary text-primary hover:bg-primary/5",
+    outline: "border-2 border-black text-black hover:bg-black/5",
   };
 
   const combinedStyles = `${baseStyles} ${variants[variant]} ${className}`;

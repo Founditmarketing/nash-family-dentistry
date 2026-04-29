@@ -253,7 +253,7 @@ const ServiceDetail = () => {
       {/* Sub-services */}
       <Section bg="gray" id={`${service.id}-subservices`}>
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-primary italic">What We Offer</h2>
+          <h2 className="text-3xl font-black text-black">What We Offer</h2>
           <p className="text-charcoal/60 mt-3 max-w-2xl mx-auto">Our {service.title.toLowerCase()} services cover every aspect of your care, all in our Vicksburg office.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -270,7 +270,7 @@ const ServiceDetail = () => {
       {/* FAQ */}
       <Section id={`${service.id}-faq`}>
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary text-center italic mb-12">Common Questions</h2>
+          <h2 className="text-3xl font-black text-black text-center mb-12">Common Questions</h2>
           <div className="space-y-6">
             {service.faq.map((item) => (
               <div key={item.q} className="bg-warm-gray rounded-xl p-6">
@@ -285,7 +285,7 @@ const ServiceDetail = () => {
       {/* CTA */}
       <Section bg="charcoal">
         <div className="text-center max-w-2xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold italic">{service.cta}</h2>
+          <h2 className="text-3xl font-black">{service.cta}</h2>
           <p className="text-gray-400">Call our Vicksburg office or request an appointment online. Dr. Kenneth and Dr. Jonathan Nash are ready to help.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button to="/contact" variant="gold" className="px-8 py-4 text-lg">Book Appointment</Button>

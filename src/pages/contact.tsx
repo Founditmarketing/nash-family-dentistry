@@ -49,7 +49,7 @@ const Contact = () => {
           {/* Info Panel */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-2xl font-bold text-primary mb-8 italic">Office Information</h2>
+              <h2 className="text-2xl font-bold text-black mb-8">Office Information</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="p-3 bg-vicksburg/10 rounded-lg mr-6"><MapPin className="h-6 w-6 text-vicksburg" /></div>
@@ -85,7 +85,7 @@ const Contact = () => {
             </div>
 
             <Card className="bg-charcoal text-white p-8 border-l-8 border-accent">
-              <h3 className="text-2xl font-bold mb-4 italic">New Patient?</h3>
+              <h3 className="text-2xl font-black mb-4">New Patient?</h3>
               <p className="opacity-80 mb-6">Save time by filling out your paperwork online before your first visit.</p>
               <Button to="https://app.nexhealth.com/appt/nash_family_dentistry" variant="gold" className="w-full">Open Patient Portal</Button>
             </Card>
@@ -94,7 +94,7 @@ const Contact = () => {
           {/* Form */}
           <div id="contact-form-container">
             <Card className="p-8 md:p-12 shadow-2xl border-0">
-              <h2 className="text-3xl font-bold text-primary mb-8 italic">Request an Appointment</h2>
+              <h2 className="text-3xl font-bold text-black mb-8">Request an Appointment</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>

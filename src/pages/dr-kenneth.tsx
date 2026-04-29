@@ -125,7 +125,7 @@ const DrKenneth = () => {
       {/* Affiliations */}
       <Section bg="gray" id="ken-affiliations">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary text-center mb-12 italic">Professional Affiliations</h2>
+          <h2 className="text-3xl font-black text-black text-center mb-12">Professional Affiliations</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             {affiliations.map((a) => (
               <div key={a} className="flex items-center bg-white rounded-lg p-4 shadow-sm border border-gray-100">
@@ -140,7 +140,7 @@ const DrKenneth = () => {
       {/* CTA */}
       <Section bg="charcoal" id="ken-cta">
         <div className="text-center max-w-2xl mx-auto space-y-6">
-          <h2 className="text-3xl font-bold italic">Ready to Experience the Nash Difference?</h2>
+          <h2 className="text-3xl font-black">Ready to Experience the Nash Difference?</h2>
           <p className="text-gray-400 leading-relaxed">
             Dr. Kenneth Nash and the entire Nash Family Dentistry team are ready to welcome you. Whether you need a routine cleaning or a full smile transformation, we're here for you.
           </p>
